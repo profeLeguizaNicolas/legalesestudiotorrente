@@ -1,0 +1,267 @@
+html {
+    visibility: hidden;
+}
+
+html.loaded {
+    visibility: visible;
+}
+
+
+
+body{
+    background-color: #dbeafe;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background-color: #dbeafe;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    position:fixed;
+    border-bottom: goldenrod 1px solid;  
+    position: fixed;
+    z-index: 1000;
+}
+
+.none2{
+    display: none;
+    background-color: #dbeafe;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    position:fixed;
+    border-bottom: goldenrod 1px solid;  
+}
+
+button{
+    color: black;
+    background-color: #dbeafe;
+    border: 0px black solid;
+    font-size: 1.2em;
+}
+#silvana{
+    position: relative;
+    top: 5vh;
+    border-radius: 5px;
+    margin-right: 1vw;
+    width: 44vw;
+    height: 34vh;
+   /* aspect-ratio: 16 / 9;
+    object-fit: contain;
+    object-position: center;*/
+}
+.p1{
+    text-align: center;
+}
+header{
+    padding-top: 8vh;
+    z-index: 2; 
+    height: 1vh; 
+}
+h1{
+    font-size: clamp(25px, 5.1vw,67px);
+    position:relative;
+    left: 20px;
+   
+}
+#text{
+    display: block;
+    justify-content: center;
+    align-content:center;
+    margin-bottom: 20vh; 
+    height: 6vh;
+}
+#tt{
+    margin-left: 15vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30vw;
+}
+.botones{
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+
+@media (min-width: 700px) {
+    .b:hover{
+        color:goldenrod;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+    
+        background-color: #172554;
+        padding: 10px 20px 5px 20px;
+    }
+    header{
+        height: 60vh;
+    }
+    #silvana{
+        top:0px;
+        
+        margin-right: 1vw;
+        width: 45vw;
+        height: 55vh;
+       
+    }
+    .botones {
+        display: block; 
+        width: 100%;
+        padding: 7px 20px;
+        text-align: center;
+    }
+    .be{
+        margin-top: 2vh;
+    }
+    #encabezado{
+        text-align: center;
+    }
+    #tt{
+        margin-left: 8vw;
+    }
+    .none2{
+        display: none;
+    }
+    #logo{
+        width: 9vw;
+        height: 9vh;
+    }
+}
+@media (max-width: 700px) {
+    #logo{
+        width: 20vw;
+        height: 11vh;
+    }
+    .b:hover{
+        color: goldenrod;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+        background-color: #172554;
+        padding: 10px 20px 5px 20px;
+    }
+    .botones {
+        display: block; 
+        width: 100%;
+        padding: 7px 20px;
+        position: relative;
+        left: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    .be{
+      
+        margin-top: 2vh;
+    }
+    .none{
+        display: none;
+    }
+    .none2{
+        display:flex;
+        height: 5vh;
+        font-size: 15px;
+    }
+    nav{
+        display: block;
+        height: 15vh;
+        border-bottom:none;
+        text-align: center;  
+    }
+    header{
+        height: auto;
+        padding-top: 15vh;
+    }
+}
+
+
+#encabezado{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+hr{
+    border-color: goldenrod;
+    width: 90vw;
+}
+.be{
+   
+    padding: 5px 20px 5px 20px;
+    font-size: 1em;
+    color: azure;
+    background-color: #172554;
+    border:#dbeafe 2px solid;
+    cursor: pointer;
+}
+.be:hover{
+    
+    padding: 5px 20px 5px 20px;
+    font-size: 1em;
+    color: azure;
+    background-color: #4b5b8e;
+    border:#dbeafe 2px solid;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    font-size: 0.9em;
+    color: azure;
+    background-color: #172554;
+    width: 100vw;
+    height: 30vh;
+    border-top: 3px solid black;
+}
+h6{
+    display: flex;
+    font-size: 1.3em;
+    margin-left: 10vw;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.bf{
+    background-color: #172554;
+    color: azure;
+}
+.bloque1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
+}
+.wsp{
+    width: 15px;
+    height: 15px;
+    flex: none;
+}
+.bf2{
+    border: azure solid 2px;
+    border-radius: 5px;
+    background-color: #172554;
+    padding: 7px;
+    color: azure;
+    cursor: pointer;
+}
+.bf2:hover{
+    border: azure solid 2px;
+    border-radius: 5px;
+    background-color: #5e70ab;
+    text-decoration: underline;
+    padding: 7px;
+    color: azure;
+    cursor: pointer;
+}
